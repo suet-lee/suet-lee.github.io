@@ -3,16 +3,17 @@ permalink: /things-I-like/
 title: "Things I like"
 ---
 
-### Internet Things
+### Internet things
 
 <a href="projecteuler.net">Project Euler</a>  
 <a href="adventofcode.com">Advent of code</a>  
 <a href="http://www.galactanet.com/oneoff/theegg_mod.html">The Egg</a>  
 
 
-### Quotes
+### Learning resources
 
-
+<a href="https://ocw.mit.edu/index.htm">MIT OpenCourseware</a>  
+<a href="https://course.fast.ai/">fast.ai deep learning course</a>  
 
 
 ### Books
