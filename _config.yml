@@ -120,6 +120,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/suetl_"
+    - label: "Blog :)"
+      icon: "fab fa-fw fa-wordpress"
+      url: "https://itsmellslikecoffee.wordpress.com/"
 
 # Site Footer
 footer:
@@ -145,6 +148,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/suetl_"
+    - label: "Blog :)"
+      icon: "fab fa-fw fa-wordpress"
+      url: "https://itsmellslikecoffee.wordpress.com/"
 
 
 # Reading Files
