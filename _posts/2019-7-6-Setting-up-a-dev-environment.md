@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Setting up a dev environment
-comments: true
 ---
 
 *How to set up a dev environment using Vagrant virtual machines.*
@@ -34,7 +32,7 @@ You can replace ubuntu/precise32 with the name of the box you want. A .vagrantfi
 ```
 # -- mode: ruby --
 # vi: set ft=ruby :
- 
+
 # Boostrap Script
 $script = <<SCRIPT
 # Update & Install
@@ -42,15 +40,15 @@ apt-get update
 apt-get install -y octave gnuplot
 echo "cd /vagrant" >> /home/vagrant/.bashrc
 SCRIPT
- 
+
 Vagrant.configure("2") do |config|
- 
+
         # All Vagrant configuration is done here. The most common configuration
         # options are documented and commented below. For a complete reference,
         # please see the online documentation at vagrantup.com.
         # Every Vagrant virtual environment requires a box to build off of.
         config.vm.box = "ubuntu/precise32"
-   
+
         # The url from where the 'config.vm.box' box will be fetched if it
         # doesn't already exist on the user's system.
         # config.vm.box_url = "http://files.vagrantup.com/precise32.box"
@@ -69,17 +67,17 @@ Vagrant.configure("2") do |config|
         # The shell provisioner allows you to upload and execute a script as the root
         # user within the guest machine.
         config.vm.provision :shell, :inline => $script
-  
+
         # Provider-specific configuration so you can fine-tune various
         # backing providers for Vagrant. These expose provider-specific options.
         # Example for VirtualBox:
         config.vm.provider :virtualbox do |vb|
                 vb.customize ["modifyvm", :id, "--memory", "256", "--cpus", "2"]
         end
- 
+
  end
  ```
- 
+
 For me, the second most useful item to specify is *config.vm.synced_folder*. This variable will sync a folder on the VM to a folder on the host machine, which means you can edit files with a text editor on your host machine.
 
 ## Step three: Run the machine
@@ -115,4 +113,3 @@ Destroys the machine – removes the machine entirely and you will no longer see
 ## Other options
 
 There are many other modifications you can make to the .vagrantfile to customize your VM. For one, I had to modify the forwarded port option for my Anaconda box to get jupyter notebook running and accessible on my host machine. You can also create your own base boxes and there’s a great tutorial [here](https://scotch.io/tutorials/how-to-create-a-vagrant-base-box-from-an-existing-one) if you’re keen.
-
