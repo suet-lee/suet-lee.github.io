@@ -1,12 +1,16 @@
 # main links
 main:
+  - title: "About"
+    url: /about/
   - title: "Projects"
     url: /projects/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "TIL"
+    url: /things-I-like/
+  - title: "Writing"
+    url: /writing/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Collections"
+    url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/

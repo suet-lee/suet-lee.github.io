@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "ILTBT"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Suet Lee"
@@ -285,3 +285,10 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
