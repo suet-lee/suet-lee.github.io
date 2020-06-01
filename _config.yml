@@ -120,7 +120,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/suetl_"
-    - label: "Blog :)"
+    - label: "Travel Blog"
       icon: "fab fa-fw fa-wordpress"
       url: "https://itsmellslikecoffee.wordpress.com/"
 
@@ -148,7 +148,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/suetl_"
-    - label: "Blog :)"
+    - label: "Travel Blog"
       icon: "fab fa-fw fa-wordpress"
       url: "https://itsmellslikecoffee.wordpress.com/"
 
