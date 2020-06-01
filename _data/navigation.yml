@@ -10,7 +10,5 @@ main:
     url: /writing/
   - title: "Posts"
     url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
