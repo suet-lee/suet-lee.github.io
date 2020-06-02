@@ -96,7 +96,7 @@ author:
   name             : "Suet Lee"
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I like to build things."
-  location         : "Somewhere"
+  location         : "In a bubble"
   email            :
   links:
     - label: "Email"
