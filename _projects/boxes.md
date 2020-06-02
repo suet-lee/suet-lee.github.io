@@ -1,6 +1,8 @@
 ---
 title: boxes
 excerpt: A game where you push fruit onto red dots
+header:
+  teaser: /assets/images/boxes.png
 gallery:
   - url: boxes.suetlee.com
     image_path: assets/images/boxes.png
@@ -8,3 +10,5 @@ gallery:
 ---
 
 A Sokoban clone created with javascript and Laravel. Users can create custom levels.
+
+{% include gallery %}
