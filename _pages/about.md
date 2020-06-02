@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About"
 ---
-
+  
 
 (Architecture, almost) > Mathematics > Web development > Digital nomad > Robotics > ???
 
