@@ -1,6 +1,6 @@
 ---
 title: plink
-excerpt: A spending tracker
+excerpt: A spending tracker, with a pink pig
 gallery:
   - url: plink.suetlee.com
     image_path: assets/images/plink.png
