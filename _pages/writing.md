@@ -5,6 +5,8 @@ title: "Writing"
 
 I like to write sometimes.  
 <a href="https://flubbergasted.tumblr.com/">Daily prompts</a>
+<hr>
+<br>
 
 {% assign posts = site.posts | where_exp: 'item', 'item.categories contains "writing"' %}
 {% for post in posts %}
