@@ -2,6 +2,8 @@
 title: Building a tree classifier (with fast.ai)
 tags:
     - fastai
+categories:
+    - fastai
 ---
 
 *In which we complete homework number 1 of the fast.ai course: building a classifier*
