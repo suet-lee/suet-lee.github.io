@@ -1,5 +1,9 @@
 ---
 title: Setting up a dev environment
+tags:
+    - devops
+    - vagrant
+    - virtual machine
 ---
 
 *How to set up a dev environment using Vagrant virtual machines.*
