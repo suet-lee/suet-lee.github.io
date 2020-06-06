@@ -306,6 +306,18 @@ defaults:
       layout: single
       author_profile: true
       share: true
+  - scope:
+      path: ""
+      type: tags
+    values:
+      comments: false
+      author_profile: true
+  - scope:
+      path: ""
+      type: categories
+    values:
+      comments: false
+      author_profile: true
 
 collections:
   projects:
