@@ -10,6 +10,3 @@ I like to write sometimes.
 {% for post in posts %}
   {% include archive-single.html %}
 {% endfor %}
-
-{{ site.members | where_exp:"item",
-"item.projects contains 'foo'" }}
