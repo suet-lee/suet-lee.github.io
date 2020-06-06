@@ -323,3 +323,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  quotes:
+    output: true
+    permalink: /:collection/:path

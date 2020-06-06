@@ -1,5 +1,5 @@
 ---
-permalink: /categories-archive/
+permalink: /categories/
 title: "Posts by category"
 layout: categories
 ---
