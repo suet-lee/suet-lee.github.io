@@ -2,7 +2,7 @@
 title: plink
 excerpt: A spending tracker, with a pink pig
 header:
-  teaser: /assets/images/plink.png
+  teaser: /assets/images/plink-teaser.png
 gallery:
   - url: http://plink.suetlee.com
     image_path: assets/images/plink.png
