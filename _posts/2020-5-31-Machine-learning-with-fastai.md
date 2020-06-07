@@ -12,4 +12,4 @@ I started following the fast.ai course motivated by the fun of doing it with a f
 
 ----
 
-{% include jnbs.TreeClassifier.md %}
+{% include jnbs/TreeClassifier.md %}
