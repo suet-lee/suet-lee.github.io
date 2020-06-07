@@ -16,7 +16,7 @@ title: "Things I like"
 <a href="https://course.fast.ai/">fast.ai deep learning course</a>  
 
 
-### Books
+### Books worth reading
 
 Meditations, Marcus Aurelius  
 The Lefthand of Darkness, Ursula Le Guin  
