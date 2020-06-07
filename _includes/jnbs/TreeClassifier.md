@@ -43,7 +43,7 @@ types = {
 }
 ```
 
-Run the following code to generate data sets for each type of tree. These are the 14 common trees in the UK according to https://www.lwtreecare.co.uk/common-uk-trees
+Run the following code to generate data sets for each type of tree. These are the 14 common trees in the UK according to <a href="https://www.lwtreecare.co.uk/common-uk-trees">https://www.lwtreecare.co.uk/common-uk-trees</a>
 
 
 ```python
@@ -51,7 +51,7 @@ for key, item in types.items():
     getImages(key, item, 300)
 ```
 
-We want to make the results of model training reproducible - to do this set the seed value of NumPy's pseudo-random number generator. Here is a good article on why reproducibility is important https://towardsdatascience.com/reproducible-machine-learning-cf1841606805
+We want to make the results of model training reproducible - to do this set the seed value of NumPy's pseudo-random number generator. Here is a good article on why reproducibility is important <a href="https://towardsdatascience.com/reproducible-machine-learning-cf1841606805">https://towardsdatascience.com/reproducible-machine-learning-cf1841606805</a>
 
 
 ```python
@@ -77,7 +77,7 @@ data.show_batch(rows=5, figsize=(7,8))
 
 We build a classifier using resnet34 and the one cycle policy. The one cycle policy essentially varies the learning rate between an upper and lower bound during the training period. Here we call fit_one_cycle with 4 training epochs - so we do a single cycle between the bounds of the learning rate when training over 4 iterations of data.
 
-This is a nice explanation with diagrams! : https://iconof.com/1cycle-learning-rate-policy/
+This is a nice explanation with diagrams! : <a href="https://iconof.com/1cycle-learning-rate-policy/">https://iconof.com/1cycle-learning-rate-policy/</a>
 
 
 ```python

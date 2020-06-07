@@ -17,5 +17,5 @@ I started following the fast.ai course motivated by the fun of doing it with a f
 
 ### Links
 
-My github repository with the jupyter notebooks: https://github.com/suet-lee/fastai
-A live version of the classifier, go classify a tree! 
+My github repository with the jupyter notebooks: <a href="https://github.com/suet-lee/fastai">https://github.com/suet-lee/fastai</a>  
+A live version of the classifier, go find a tree to classify! 
