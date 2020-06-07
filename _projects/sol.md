@@ -2,7 +2,7 @@
 title: sol
 excerpt: A pocket solar system
 header:
-  teaser: /assets/images/sol-teaser.png
+  teaser: /assets/images/sol.png
 gallery:
   - url: http://boxes.suetlee.com
     image_path: assets/images/sol.png
