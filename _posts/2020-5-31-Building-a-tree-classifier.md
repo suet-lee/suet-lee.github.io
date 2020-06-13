@@ -18,4 +18,4 @@ I started following the fast.ai course motivated by the fun of doing it with a f
 ### Links
 
 My github repository with the jupyter notebooks: <a href="https://github.com/suet-lee/fastai">https://github.com/suet-lee/fastai</a>  
-A live version of the classifier, go find a tree to classify!
+A live version of the classifier, go find a tree to classify! <a href="http://whats-that-tree.suetlee.com/">http://whats-that-tree.suetlee.com/</a>
