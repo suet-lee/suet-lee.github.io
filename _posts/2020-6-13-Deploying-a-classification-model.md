@@ -13,10 +13,9 @@ categories:
     - fastai
 ---
 
-*In which we deploy our classifier to a cloud server*
+*In which we deploy our classifier to a cloud server.*
 
-I thought training the classifier was the difficult part but it turns out that deployment was the real test...  
-Here I record the steps I took and issues I encountered to get my classifier 'whats-that-tree' working in the cloud as a reminder to self, and to help anyone who might have similar issues!
+I thought training the classifier was the difficult part but it turns out that deployment was the real test... Here I record the steps I took and issues I encountered to get my classifier 'whats-that-tree' working in the cloud as a reminder to self, and to help anyone who might have similar issues!
 
 ## Setup
 
@@ -45,22 +44,32 @@ The last command is for apache2 dev tools. I can't remember if that's necessary 
 ### Step 2
 
 Create a virtual environment for the Flask app:  
-`virtualenv -p python3.6 venv`  
+````
+virtualenv -p python3.6 venv
+````  
 Activate the virtual environment:  
-`. venv/bin/activate`  
+````
+. venv/bin/activate
+````  
 
 You need to install a mod_wsgi version for python3:  
-`pip3 install mod_wsgi`  
+````
+pip3 install mod_wsgi
+````  
 
 Now to install fastai - since my server only has CPU I opted to first install a CPU version of pytorch before installing fastai:   
 You can find the correct installation verion for your server [here](https://pytorch.org/get-started/locally/)  
-`pip3 install torch==1.5.0+cpu torchvision==0.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html`  
-`pip3 install fastai`  
+````
+pip3 install torch==1.5.0+cpu torchvision==0.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html  
+pip3 install fastai
+````  
 
 During the installation of fastai, I hit an issue installing bottleneck. If I remember correctly it was to do with this error:  
 `fatal error: Python.h: No such file or directory compilation terminated.`
 If you come across this, you need to install python dev:  
-`sudo apt install python3.6-dev`
+````
+sudo apt install python3.6-dev
+````
 
 ### Step 3
 
@@ -86,7 +95,7 @@ sys.path.insert(0,"/path/to/whats-that-tree/")
 
 from app import app as application
 ````
-where the path to pass to `sys.path.insert` is the path to the app directory.
+Where the path to pass to `sys.path.insert` is the path to the app directory.  
 
 Create a `whats-that-tree.conf` file:  
 ````
@@ -117,12 +126,14 @@ Create a `whats-that-tree.conf` file:
 ````
 You will need to use `LoadModule` to load mod_wsgi from the correct path in your virtual environment.  
 You can find the correct directives with command:
-`mod_wsgi-express module-config`
+````
+mod_wsgi-express module-config
+````
 See: [https://pypi.org/project/mod-wsgi/](https://pypi.org/project/mod-wsgi/)
 
 ### Step 4
 
-Enable the site with `sudo a2ensite whats-that-tree` and reload apache `sudo service apache2 reload` - it should work if everything is configured correctly.  
+Enable the site with `sudo a2ensite whats-that-tree` and reload apache `sudo service apache2 reload`: it should work if everything is configured correctly.  
 One last thing, I received many 'Truncated or oversized response headers received from daemon process' error messages from Apache and I tried many many fixes. Turns out my server just needed more memory (it initially had 1GB) and scaling up to 2GB was enough!
 
 ### Fin
@@ -135,13 +146,17 @@ with open(activate_this) as file_:
     exec(file_.read(), dict(__file__=activate_this))
 ````
 The `LoadModule` directive is no longer needed and you can replace:  
-`WSGIDaemonProcess app_name python-home="/path/to/whats-that-tree/venv"`  
+````
+WSGIDaemonProcess app_name python-home="/path/to/whats-that-tree/venv"
+````  
 With:  
-`WSGIDaemonProcess app_name`  
+````
+WSGIDaemonProcess app_name
+````  
 
 That's it!
 
 ### Links
 
-My classifier app on GitHub: [https://github.com/suet-lee/whats-that-tree](https://github.com/suet-lee/whats-that-tree)
+My classifier app on GitHub: [https://github.com/suet-lee/whats-that-tree](https://github.com/suet-lee/whats-that-tree)  
 A live version of the classifier, go find a tree to classify! [http://whats-that-tree.suetlee.com](http://whats-that-tree.suetlee.com)
