@@ -25,7 +25,7 @@ OS: Ubuntu 16.04
 Server memory: 2GB  
 Web server: Apache
 
-## Install fastai
+----
 
 One of the main hurdles was getting fastai installed inside a virtual environment and having my web server use that environment to serve the Flask application. I've used mod_wsgi with Flask before to set up another project but it was a few years ago so I needed some refreshing on the details. The [Flask documentation](https://flask.palletsprojects.com/en/1.1.x/deploying/mod_wsgi/) is a good starting point and so is this [guide](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps). However, neither touch on how to have mod_wsgi serve the app with a specific virtual environment.
 
@@ -138,8 +138,7 @@ One last thing, I received many 'Truncated or oversized response headers receive
 
 ### Fin
 
-Turns out there's a easier way (somewhat) to get Apache to use the virtual environment. I completely missed it in this [guide](https://flask.palletsprojects.com/en/1.1.x/deploying/mod_wsgi/).  
-You can add this to the top of the `app.wsgi` file:  
+Turns out there's a easier way (somewhat) to get Apache to use the virtual environment. I completely missed it in this [guide](https://flask.palletsprojects.com/en/1.1.x/deploying/mod_wsgi/). You can add this to the top of the `app.wsgi` file:  
 ````
 activate_this = '/path/to/venv/bin/activate_this.py'
 with open(activate_this) as file_:
