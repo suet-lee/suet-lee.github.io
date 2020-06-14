@@ -124,8 +124,7 @@ Create a `whats-that-tree.conf` file:
         CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 ````
-You will need to use `LoadModule` to load mod_wsgi from the correct path in your virtual environment.  
-You can find the correct directives with command:
+You will need to use `LoadModule` to load mod_wsgi from the correct path in your virtual environment. You can find the correct directives with command:
 ````
 mod_wsgi-express module-config
 ````
