@@ -5,9 +5,11 @@ title: "Things I like"
 
 ### Internet things
 
-<a href="projecteuler.net">Project Euler</a>  
-<a href="adventofcode.com">Advent of code</a>  
-<a href="http://www.galactanet.com/oneoff/theegg_mod.html">The Egg</a>  
+[Project Euler](projecteuler.net)
+[Advent of code](adventofcode.com)
+[The Egg](http://www.galactanet.com/oneoff/theegg_mod.html)
+[Charlie Kaufman on Writing](https://www.youtube.com/watch?v=eRfXcWT_oFs)
+[Elizabeth Gilbert TED interview](https://www.ted.com/talks/the_ted_interview_elizabeth_gilbert_shows_up_for_everything?language=en)
 
 
 ### Learning resources
