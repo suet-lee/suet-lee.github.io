@@ -21,7 +21,7 @@ I thought training the classifier was the difficult part but it turns out that d
 
 Cloud server: DigitalOcean  
 App framework: Flask  
-OS: Ubuntu 16.04
+OS: Ubuntu 16.04  
 Server memory: 2GB  
 Web server: Apache
 
