@@ -58,11 +58,11 @@ pip3 install mod_wsgi
 ````  
 
 Now to install fastai - since my server only has CPU I opted to first install a CPU version of pytorch before installing fastai:   
-You can find the correct installation verion for your server [here](https://pytorch.org/get-started/locally/)  
 ````
 pip3 install torch==1.5.0+cpu torchvision==0.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html  
 pip3 install fastai
 ````  
+You can find the correct installation verion for your server [here](https://pytorch.org/get-started/locally/).  
 
 During the installation of fastai, I hit an issue installing bottleneck. If I remember correctly it was to do with this error:  
 `fatal error: Python.h: No such file or directory compilation terminated.`
