@@ -11,7 +11,7 @@ Thump - the figures rise up. Slender arms, strong arms, withered arms open to th
 Shhk shhk shhk - their arms curve, gathering hollow space and then release again. They move slowly now, bodies in celestial orbit around the center. Silent, focused intention.
 
 Thump - a soft step, light but firm, enters the stage. The game begins. The new player approaches, all black. Shhhhhhk! The rattles agitate and the red figures snap to attention. They face the newcomer poised, ready. Feet planted, low stances.
-The movements are a blur. The dark figure subdues the outermost defenders - they sink gracefully to their knees. Thump thump thump! The drumbeats echo as the figures dance in silent combat. The black figure cuts like a whisper, half-lit.
+The movements are a blur. The dark figure subdues the outermost defenders - they sink gracefully to their knees. Thump thump thump! The drumbeats echo as the figures dance in silent combat. Black cuts like a whisper, half-lit.
 Half the red robes fall. Perhaps half a dozen remain. They encircle the center where the treasure awaits - the God mask.
 
 The challenger is too nimble, too light, too fast. They sink one by one, heads bowed, spirits flown. Two remain.
