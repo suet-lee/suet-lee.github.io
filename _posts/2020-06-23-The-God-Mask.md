@@ -17,7 +17,7 @@ Half the red robes fall. Perhaps half a dozen remain. They encircle the center w
 The challenger is too nimble, too light, too fast. They sink one by one, heads bowed, spirits flown. Two remain.
 
 And now the final test. The challenger faces their sickle blades, sharp enough to cut without spilling a drop of life. The silver crescents flash with cold intent. Theirs is a challenge that has been staked a hundred times past - a tradition
-of centuries. To become woman it to claim the godly power.
+of centuries. To become woman is to claim Godly power.
 
 Thump, thump. Shhhhhk. Thump. The drums are solemn, heavy as the final two guardians submit. Their blades clatter in release. It is over and done. She takes the closest robe and slips on the carved black mask. It is a perfect fit. She is woman, she is a God.
 
