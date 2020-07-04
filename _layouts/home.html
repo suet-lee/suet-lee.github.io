@@ -13,7 +13,11 @@ layout: archive
 {% endif %}
 
 {% for post in posts %}
-  {% include archive-single.html %}
+  {% if post.categories contains "writing" %}
+    <!-- Do nothing -->
+  {% else %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
 {% include paginator.html %}
