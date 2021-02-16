@@ -99,9 +99,9 @@ author:
   location         : "Somewhere in space"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:bagelblau@gmail.com"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:bagelblau@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -120,6 +120,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/suetl_"
+    - label: "Redbubble"
+      icon: "fas fa-shopping-bag"
+      url: "https://www.redbubble.com/people/suetl/shop?asc=u"
     # - label: "ISLC"
     #   icon: "fab fa-fw fa-wordpress"
     #   url: "https://itsmellslikecoffee.wordpress.com/"
@@ -148,9 +151,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/suetl_"
-    - label: "ISLC"
-      icon: "fab fa-fw fa-wordpress"
-      url: "https://itsmellslikecoffee.wordpress.com/"
+    # - label: "ISLC"
+    #   icon: "fab fa-fw fa-wordpress"
+    #   url: "https://itsmellslikecoffee.wordpress.com/"
 
 
 # Reading Files
