@@ -1,7 +1,7 @@
 ---
 title: The God Mask
 categories:
-    - writing
+    - stories
 ---
 
 Thump - a drum beat. Shhhhhk. The shake of a rattle.

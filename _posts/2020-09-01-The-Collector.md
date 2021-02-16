@@ -1,7 +1,7 @@
 ---
 title: The Collector
 categories:
-    - writing
+    - stories
 ---
 
 When she was a child, she had a kaleidoscope. It split the world into fragments, of shape and light. A magical world in a wooden tube, broken and remade again, only the rules were different. Disjointed objects halved, quartered, with no ends and mirrored into infinity. There was a pattern hiding in it, a game to tease out and trace in her mind.  

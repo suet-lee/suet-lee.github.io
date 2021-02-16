@@ -4,7 +4,7 @@ excerpt: A pocket solar system
 header:
   teaser: /assets/images/sol.png
 gallery:
-  - url: http://boxes.suetlee.com
+  - url: http://sol.suetlee.com
     image_path: assets/images/sol.png
     alt: "Maze level 1"
 ---

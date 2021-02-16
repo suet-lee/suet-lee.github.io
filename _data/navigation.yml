@@ -6,8 +6,8 @@ main:
     url: /projects/
   - title: "TIL"
     url: /things-I-like/
-  - title: "Writing"
-    url: /writing/
+  - title: "Stories"
+    url: /stories/
   - title: "Posts"
     url: /year-archive/
   # - title: "Sitemap"

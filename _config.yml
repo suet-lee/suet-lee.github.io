@@ -96,12 +96,12 @@ author:
   name             : "Suet Lee"
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I like to build things."
-  location         : "In a bubble"
+  location         : "Somewhere in space"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:bagelblau@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -120,9 +120,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/suetl_"
-    - label: "ISLC"
-      icon: "fab fa-fw fa-wordpress"
-      url: "https://itsmellslikecoffee.wordpress.com/"
+    # - label: "ISLC"
+    #   icon: "fab fa-fw fa-wordpress"
+    #   url: "https://itsmellslikecoffee.wordpress.com/"
 
 # Site Footer
 footer:
