@@ -1,5 +1,5 @@
 ---
-title: dpx collapse
+title: DPx collapse
 categories:
     - stories
 ---
