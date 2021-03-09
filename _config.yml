@@ -295,7 +295,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -311,7 +311,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
   - scope:
       path: ""
       type: tags
