@@ -8,7 +8,7 @@ tags:
     - fiction
 ---
 
-##Thoughts on robots and fiction
+## Thoughts on robots and fiction
 
 The word, robot, comes from the Slavonic rabota and it was first used in a 1920’s play by a Czech writer called Karel Capek. Rossum’s Universal Robots, the title of the play and name of the company, are mass-producing “soulless” workers to do the dirty work of humanity. We are building such robots today, for inspecting nuclear sites, underground mines, and to aid in agriculture and manufacturing. They may be autonomous or need partial human input. It’s a start, but we are still far away from the likes of Wall-E.
 <br>
