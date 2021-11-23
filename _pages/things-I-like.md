@@ -6,6 +6,8 @@ title: "Things I like"
 #### September 2021
 
 - [Moments of a distribution](https://gregorygundersen.com/blog/2020/04/11/moments/ )
+- [Pareidolia](https://en.wikipedia.org/wiki/Pareidolia)
+- [Godel, Escher, Bach](https://www.openculture.com/2021/08/take-an-intellectual-odyssey-with-a-free-mit-course-on-douglas-hofstadters-pulitzer-prize-winning-book-godel-escher-bach-an-eternal-golden-braid.html)
 
 #### May 2021
 
