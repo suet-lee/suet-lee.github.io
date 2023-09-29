@@ -1,23 +1,6 @@
 ---
-layout: archive
+<!-- layout: archive -->
 ---
 
-{{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% for post in posts %}
-  {% if post.categories contains "stories" %}
-    <!-- Do nothing -->
-  {% else %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
-{% include paginator.html %}
+Testing
