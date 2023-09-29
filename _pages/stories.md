@@ -1,6 +1,6 @@
 ---
-permalink: /stories/
-title: "Stories"
+permalink: /writing/
+title: "Writing"
 ---
 
 {% assign posts = site.posts | where_exp: 'item', 'item.categories contains "stories"' %}
