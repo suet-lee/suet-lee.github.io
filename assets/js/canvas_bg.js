@@ -1,4 +1,4 @@
-var canvas = document.getElementById('canvas-bg');
+var canvas = document.querySelector("#canvas-bg")
 var ctx = canvas.getContext('2d');
 
 // Recursive function to draw branches
