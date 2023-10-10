@@ -1,5 +1,5 @@
-const canvas = document.getElementById('canvas-bg');
-const ctx = canvas.getContext('2d');
+var canvas = document.getElementById('canvas-bg');
+var ctx = canvas.getContext('2d');
 
 // Recursive function to draw branches
 function drawBranch(x, y, length, angle, depth) {
