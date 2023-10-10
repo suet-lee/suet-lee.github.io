@@ -3,6 +3,9 @@ $(function(){
     var canvas = document.querySelector("#canvas-bg")
     var ctx = canvas.getContext('2d');
 
+    canvas.width = window.innerWidth
+    canvas.height = window.innerHeight
+
     // Recursive function to draw branches
     function drawBranch(x, y, length, angle, depth) {
     if (depth === 0) return;
