@@ -5,8 +5,8 @@ loadScript = function() {
         canvas_w: 100, // Default - updated in resizeCanvas
         canvas_h: 100,
         iteration: 0,
-        max_iteration: 1000,
-        growth_rate: 5, // Number of nodes to grow each iteration
+        max_iteration: 5000,
+        growth_rate: 10, // Number of nodes to grow each iteration
         p_branch: 0.07, // Probability of a new branching node
         active_nodes: [], // List of coords of active nodes
         growth_angle: [], // List of the growth angle of nodes
@@ -183,7 +183,7 @@ loadScript = function() {
         red_min = 120
         red = parseInt((red_max-red_min)*(1-d_energy) + red_min)
 
-        time_elapsed = G.iteration/G.max_iteration
+        time_elapsed = Math.min(G.iteration,800)/800//G.max_iteration
         green_max = 220
         green_min = 120
         green = parseInt((green_max-green_min)*time_elapsed + green_min)
