@@ -183,7 +183,7 @@ loadScript = function() {
         red_min = 120
         red = parseInt((red_max-red_min)*(1-d_energy) + red_min)
 
-        time_elapsed = Math.min(G.iteration,800)/800//G.max_iteration
+        time_elapsed = Math.min(G.iteration,1200)/1200//G.max_iteration
         green_max = 220
         green_min = 120
         green = parseInt((green_max-green_min)*time_elapsed + green_min)
