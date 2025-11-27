@@ -245,12 +245,8 @@ loadScript = function() {
 
         growNodes()
         drawFrame()
-        var canVibrate = "vibrate" in navigator || "mozVibrate" in navigator;
-        if (canVibrate && !("vibrate" in navigator))
-        {
-            navigator.vibrate = navigator.mozVibrate;
-        }
-        navigator.vibrate(222);
+        const canVibrate = window.navigator.vibrate
+        if (canVibrate) window.navigator.vibrate(100)
         
     }, 50);
 
