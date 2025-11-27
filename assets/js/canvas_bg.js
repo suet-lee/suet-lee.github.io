@@ -264,3 +264,15 @@ $(function(){
         interval = loadScript()
     })
 });
+
+var canVibrate = "vibrate" in navigator || "mozVibrate" in navigator;
+if (canVibrate && !("vibrate" in navigator))
+{
+    navigator.vibrate = navigator.mozVibrate;
+}
+navigator.vibrate(222);
+// $(document).on('click', '.answer', function (eve) {
+//     $this = $(this);
+
+    
+// }
